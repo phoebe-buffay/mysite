@@ -3,64 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="top-container">
       <div class="header">
         <div class="logo">Header logo</div>
+        <div class="links">
+          <ul>
+            <li><a href="https://google.com">link one</a></li>
+            <li><a href="https://google.com">link two</a></li>
+            <li><a href="https://google.com">link three</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="links">
-        <ul>
-          <li>link one</li>
-          <li>link two</li>
-          <li>link three</li>
-        </ul>
-      </div>
+
       <div class="upper-container">
-        <h1>This website is awesome</h1>
-        <p>
-          This website has some subtext that goes here under the main title.
-        </p>
-        <button>Sign Up</button>
-        <img src="img-for-mysite.jpg" alt="work table" />
+        <div class="united">
+          <div class="title-container">
+            <h1>This website is awesome</h1>
+          </div>
+          <div class="subtitle-container">
+            <p>
+              This website has some subtext that goes here under the main title.
+            </p>
+          </div>
+
+          <button class="button-up">Sign Up</button>
+        </div>
+        <div class="placeholder-image">
+          <img src="img-for-mysite.jpg" alt="work table" />
+        </div>
       </div>
     </div>
-
     <div class="cards">
-      <div class="sticker">
-        <img src="sticker.jpg" alt="Sticker" />
-        <div class="card-text">Text under the card img</div>
+      <div class="cards-title">
+        <h2>Some important information</h2>
       </div>
+      <div class="cards-container">
+        <div class="card">
+          <img src="sticker.jpg" alt="Sticker" />
+          <div class="card-text">Text under the card img</div>
+        </div>
 
-      <div class="calc">
-        <img src="calc.jpg" alt="Calculator" />
-        <div class="card-text">Text under the card img</div>
-      </div>
-      <div class="compass">
-        <img src="compass.jpg" alt="Compass" />
-        <div class="card-text">Text under the card img</div>
-      </div>
-      <div class="pencil">
-        <img src="pencil.jpg" alt="Pencil" />
-        <div class="card-text">Text under the card img</div>
+        <div class="card">
+          <img src="calc.jpg" alt="Calculator" />
+          <div class="card-text">Text under the card img</div>
+        </div>
+        <div class="card">
+          <img src="compass.jpg" alt="Compass" />
+          <div class="card-text">Text under the card img</div>
+        </div>
+        <div class="card">
+          <img src="pencil.jpg" alt="Pencil" />
+          <div class="card-text">Text under the card img</div>
+        </div>
       </div>
     </div>
 
     <div class="quote">
-      <p>
-        Have those uncomfortable moments. Because my strong personal belief is
-        it is those moments that cause you to grow the most yourself, but that
-        also differentiate you the most in your career.
-      </p>
-      <p>Corie Barry</p>
+      <div class="quote-itself-container">
+        <p class="quote-itself">
+          Have those uncomfortable moments. Because my strong personal belief is
+          it is those moments that cause you to grow the most yourself, but that
+          also differentiate you the most in your career.
+        </p>
+      </div>
+      <div class="name-container">
+        <p class="name">Corie Barry</p>
+      </div>
     </div>
 
     <div class="bottom-container">
       <div class="auth">
-        <h2>Call to action! It's time!</h2>
-        <p>Sign up for our product by clicking that button</p>
-        <button>Sign Up</button>
+        <div class="action-titles">
+          <h2>Call to action! It's time!</h2>
+          <p class="action-subtitle">
+            Sign up for our product by clicking that button
+          </p>
+        </div>
+        <button class="button-down">Sign Up</button>
       </div>
       <div class="footer">Copyright © The Odin Project 2025</div>
     </div>

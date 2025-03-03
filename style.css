@@ -1,0 +1,177 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.top-container {
+  background-color: #1f2937;
+}
+
+.header {
+  display: flex;
+  color: #f9faf8;
+  justify-content: space-around;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 20px;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.logo {
+  margin: 20px;
+  align-items: center;
+  font-size: 24px;
+}
+
+.upper-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  align-items: center;
+}
+
+.title-container {
+  display: flex;
+  font-size: 38px;
+  color: #f9faf8;
+  font-weight: 900;
+  width: 50%;
+}
+
+.subtitle-container {
+  display: flex;
+  color: #e5e7eb;
+}
+
+.placeholder-image {
+  width: min-content;
+  height: min-content;
+}
+
+.placeholder-image img {
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.united {
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.button-up {
+  border-radius: 8px;
+  background: #3882f6;
+  color: white;
+  padding: 8px 24px;
+}
+
+.cards {
+  margin: 40px;
+}
+
+.cards-title {
+  font-size: 36px;
+  color: #1f2937;
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card img {
+  border-radius: 10px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 70px;
+}
+
+.quote-itself-container {
+  display: flex;
+
+  justify-content: center;
+}
+
+.quote-itself {
+  font-size: 36px;
+  font-style: italic;
+  width: 50%;
+  color: #1f2937;
+  text-align: left;
+}
+
+.name-container {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  font-size: 20px;
+
+  width: 50%;
+  color: #1f2937;
+  text-align: right;
+}
+
+.bottom-container {
+}
+
+.auth {
+  display: flex;
+  background-color: #3882f6;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border-radius: 8px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.button-down {
+  border-radius: 8px;
+  border-color: white;
+  background: #3882f6;
+  color: white;
+  padding: 8px 24px;
+}
+.action-subtitle {
+  color: #e5e7eb;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 20px;
+  align-items: end;
+}
