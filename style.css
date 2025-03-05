@@ -55,14 +55,6 @@ a {
   height: min-content;
 }
 
-.placeholder-image img {
-  margin: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
 .united {
   flex-direction: column;
 }
